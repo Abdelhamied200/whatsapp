@@ -1,0 +1,26 @@
+.page .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3e9c8;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 60px 0 #0000001c;
+  border-radius: 10px;
+  .pic {
+    img {
+      width: 100px;
+    }
+  }
+  .username,
+  .btn {
+    margin: 10px 0;
+  }
+  .btn {
+    .MuiButton-containedPrimary {
+      background-color: white;
+      color: green;
+    }
+  }
+}

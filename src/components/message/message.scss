@@ -1,0 +1,36 @@
+.message__container {
+  display: flex;
+  flex-direction: column;
+  &.me {
+    align-items: flex-end;
+    .msg {
+      background-color: #ddf7c0;
+    }
+  }
+
+  p.username {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 10px;
+  }
+  .msg {
+    display: flex;
+    overflow-wrap: anywhere;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 10px;
+
+    p.content {
+      margin-right: 10px;
+    }
+    p.timestamp {
+      color: gray;
+      font-size: 9px;
+      font-weight: bold;
+      align-self: flex-end;
+    }
+  }
+}
